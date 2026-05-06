@@ -41,3 +41,21 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Custom publication styles */
+
+.pub-section-title {
+  margin-top: 2.2em;
+  margin-bottom: 1.1em;
+  padding: 0.35em 0.6em;
+  border-left: 6px solid #52adc8;
+  background: #f5f9fb;
+  font-size: 1.45em;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.25;
+}
+
+.pub-section-title:not(:first-of-type) {
+  margin-top: 3em;
+}
