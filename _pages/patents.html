@@ -10,6 +10,16 @@ This page lists Korean granted patents related to wearable robotics, rehabilitat
 assistive devices, robotic actuation, and human&ndash;robot interaction technologies.
 </p>
 
+<h2 class="pub-section-title">International Granted Patents</h2>
+
+{% assign intl_patents = site.data.patents.international | sort: "date" | reverse %}
+{% assign intl_count = intl_patents | size %}
+
+{% for patent in intl_patents %}
+  {% assign reverse_index = intl_count | minus: forloop.index | plus: 1 %}
+  {% include patent-clean.html patent=patent index=reverse_index prefix="US" %}
+{% endfor %}
+
 <h2 class="pub-section-title">Korean Granted Patents</h2>
 
 {% assign kr_patents = site.data.patents.korean | sort: "date" | reverse %}
