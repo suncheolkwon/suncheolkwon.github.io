@@ -1,0 +1,15 @@
+---
+title: "A low backlash and highly efficient gearbox for robot actuator"
+collection: publications
+category: conferences
+permalink: /publication/2024aim-wsshin-gearbox
+excerpt: ""
+date: 2024-01-01
+venue: "2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)"
+paperurl: "https://doi.org/10.1109/AIM55361.2024.10637046"
+citation: "Wonseok Shin, Bummo Ahn, and Suncheol Kwon. \"A low backlash and highly efficient gearbox for robot actuator.\" *2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)*, pp. 224-229, 2024."
+---
+
+Wonseok Shin, Bummo Ahn, and **Suncheol Kwon**. "A low backlash and highly efficient gearbox for robot actuator." *2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)*, pp. 224-229, 2024.
+
+DOI: [10.1109/AIM55361.2024.10637046](https://doi.org/10.1109/AIM55361.2024.10637046)
