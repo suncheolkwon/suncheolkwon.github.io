@@ -7,17 +7,12 @@
   </div>
 
   {% if pub.authors_text %}
-    {% assign authors_line = pub.authors_text
-      | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>"
-      | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
+{% assign authors_line = pub.authors_text | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>" | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
     <div style="line-height: 1.45; margin-bottom: 0.25em;">
       {{ authors_line }}
     </div>
   {% elsif pub.citation %}
-    {% assign clean_citation = pub.citation
-      | replace: "Recommended citation:", ""
-      | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>"
-      | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
+{% assign clean_citation = pub.citation | replace: "Recommended citation:", "" | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>" | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
     <div style="line-height: 1.45; margin-bottom: 0.25em;">
       {{ clean_citation | markdownify | remove: "<p>" | remove: "</p>" }}
     </div>
