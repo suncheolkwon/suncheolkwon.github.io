@@ -1,5 +1,5 @@
 ---
-title: "TODO: add title (2026access-skwon-hipexo)"
+title: "Unilateral Assistance Using a Lightweight and Back-Drivable Hip Exoskeleton"
 collection: publications
 category: manuscripts
 permalink: /publication/2026access-skwon-hipexo
