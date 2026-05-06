@@ -4,9 +4,10 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026access-skwon-hipexo
 excerpt: ""
-date: 2026-01-01
+date: 2026-03-23
 venue: "IEEE Access"
-citation: "Suemin Park, Suncheol Kwon, and Youngjin Na. \"TODO: add title (2026access-skwon-hipexo).\" *IEEE Access*, 2026."
+citation: "Suemin Park, Suncheol Kwon, and Youngjin Na"
+corresponding: true
+badges: ""
+  
 ---
-
-Suemin Park, **Suncheol Kwon**, and Youngjin Na. "TODO: add title (2026access-skwon-hipexo)." *IEEE Access*, 2026.
