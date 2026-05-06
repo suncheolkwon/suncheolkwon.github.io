@@ -6,6 +6,8 @@ permalink: /publication/2026access-skwon-hipexo
 excerpt: ""
 date: 2026-03-23
 venue: "IEEE Access"
+volume: "14"
+pages: "45354-45363"
 doi: "10.1109/ACCESS.2026.3676294"
 citation: "Suemin Park, Suncheol Kwon, and Youngjin Na"
 corresponding: true
