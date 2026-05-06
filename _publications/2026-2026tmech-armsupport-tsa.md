@@ -11,7 +11,7 @@ pages: ""
 doi: "10.1109/TMECH.2026.3681318"
 citation: "Sohyun Moon, Yeji Hwang, Suncheol Kwon, Jonghyun Kim"
 corresponding: false
-badges: 
- "Early access"
+badges:
+  - "Early Access"
   
 ---
