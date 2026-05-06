@@ -59,3 +59,11 @@
 .pub-section-title:not(:first-of-type) {
   margin-top: 3em;
 }
+
+.pub-number {
+  display: inline-block;
+  min-width: 3.2em;
+  margin-right: 0.35em;
+  color: #2f7f9f;
+  font-weight: 700;
+}
