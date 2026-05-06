@@ -10,12 +10,12 @@
 main:
   - title: "Publications"
     url: /publications/
-
+    
+  - title: "Patents"
+    url: /patents/
   
   - title: "Portfolio"
     url: /portfolio/
-        
-
-    
+            
   - title: "CV"
     url: /files/cv.pdf
