@@ -2,7 +2,7 @@
 title: "A Simple and Intuitive Hand Exoskeleton With Link-Length-Based Modulation of Joint Moment and Speed"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-2026access-skwon-handexo
+permalink: /publication/2026access-skwon-handexo
 excerpt: ""
 date: 2026-03-30
 venue: "IEEE Access"
