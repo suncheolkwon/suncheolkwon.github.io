@@ -1,4 +1,22 @@
-# Korean granted patents generated from patents.xlsx
+international:
+  - title: "Wearable hand robot"
+    country: "US"
+    number: "11,565,399"
+    date: "2023-01-31"
+    role: "lead"
+
+  - title: "Upper limb exercise apparatus and control method therefor"
+    country: "US"
+    number: "11,259,977"
+    date: "2022-03-01"
+    role: "lead"
+
+  - title: "Gait rehabilitation control system and method therefor"
+    country: "US"
+    number: "10,881,911"
+    date: "2021-01-05"
+    role: "lead"
+    
 korean:
   - title: "Leg joint robot"
     country: "KR"
