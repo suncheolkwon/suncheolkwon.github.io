@@ -13,7 +13,3 @@ number: "2"
 pages: "135-142"
 corresponding: false
 ---
-
-Seunghyeon Pyo, Kihun Cho, **Suncheol Kwon**, Donggeon Lee, Sunhae Song, and Gyuchang Lee. "Gait analysis in hemiplegic stroke survivors who used the one-arm motorized walker." *Technology and Health Care*, vol. 28, no. 2, pp. 135-142, 2020.
-
-DOI: [10.3233/THC-191595](https://doi.org/10.3233/THC-191595)
