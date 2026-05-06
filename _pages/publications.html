@@ -5,14 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h2>Journal Articles</h2>
+<h2 class="pub-section-title">Journal Articles</h2>
 
 {% assign journal_pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
 {% for pub in journal_pubs %}
   {% include publication-clean.html pub=pub %}
 {% endfor %}
 
-<h2>Conference Proceedings</h2>
+<h2 class="pub-section-title">Conference Proceedings</h2>
 
 {% assign conf_pubs = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
 {% for pub in conf_pubs %}
