@@ -7,7 +7,7 @@ excerpt: ""
 date: 2022-01-01
 venue: "Journal of Mechanics in Medicine and Biology"
 doi: "10.1142/S0219519422400231"
-citation: "SO-JUNG LEE, KWANG-OK AN, SUNCHEOL KWON, and WON-KYUNG SONG"
+citation: "So-Jung Lee, Kwang-Ok An, Suncheol Kwon, and Won-Kyung Song"
 volume: "22"
 article_number: "2240023"
 corresponding: false
