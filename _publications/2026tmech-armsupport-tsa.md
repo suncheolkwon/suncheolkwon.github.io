@@ -2,7 +2,7 @@
 title: "A Novel Active End-Effector Type Dynamic Arm Support System With Twisted String Actuator"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-2026tmech-armsupport-tsa.md
+permalink: /publication/2026tmech-armsupport-tsa.md
 excerpt: ""
 date: "2027-01-01"
 venue: "IEEE/ASME Transactions on Mechatronics"
