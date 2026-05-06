@@ -2,7 +2,7 @@
 title: "Combined effects and timing of robotic training and botulinum toxin on upper limb spasticity and motor function: a single‑blinded randomized controlled pilot study"
 collection: publications
 category: manuscripts
-permalink: /publication/2025jner-skwon-botoxrehab
+permalink: /publication/2025jner-skwon-botoxrehab.md
 excerpt: ""
 date: 2025-03-06
 venue: "Journal of NeuroEngineering and Rehabilitation"
