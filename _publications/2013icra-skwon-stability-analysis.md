@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2013icra-skwon-stability-analysis
 excerpt: ""
-date: 2013-01-01
+date: 2013-05-06
 venue: "2013 IEEE International Conference on Robotics and Automation"
 doi: "10.1109/ICRA.2013.6631129"
 citation: "Suncheol Kwon, Yunjoo Kim, and Jung Kim"
