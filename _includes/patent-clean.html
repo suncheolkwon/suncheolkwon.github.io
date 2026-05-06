@@ -1,17 +1,17 @@
 {% assign patent = include.patent %}
 
-<div style="margin-bottom: 1.5em; padding-bottom: 1.0em; border-bottom: 1px solid #e5e5e5;">
-
-  <div style="font-size: 1.05em; font-weight: 700; line-height: 1.35; margin-bottom: 0.25em;">
+<div style="margin-bottom: 1.05em; padding-bottom: 0.75em; border-bottom: 1px solid #e5e5e5;">
+  
+  <div style="font-size: 0.98em; font-weight: 700; line-height: 1.25; margin-bottom: 0.15em;">
     <span class="pub-number">[{{ include.prefix }}{{ include.index }}]</span>
     {{ patent.title }}
   </div>
 
-  <div style="line-height: 1.45;">
+  <div style="line-height: 1.30;">
     {{ patent.country }} {{ patent.number }}{% if patent.date %}, granted {{ patent.date | date: "%b. %-d, %Y" }}{% endif %}.
   </div>
 
-  <div style="line-height: 1.45; color: #555;">
+  <div style="line-height: 1.30; color: #555;">
     {% if patent.role == "lead" %}
       Inventors: Suncheol Kwon et al. · Lead inventor
     {% else %}
