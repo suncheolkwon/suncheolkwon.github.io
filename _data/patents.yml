@@ -3,14 +3,20 @@ international:
     country: "US"
     number: "11,565,399"
     date: "2023-01-31"
-    role: "lead"
+    role: "included"
 
   - title: "Upper limb exercise apparatus and control method therefor"
     country: "US"
     number: "11,259,977"
     date: "2022-03-01"
-    role: "lead"
+    role: "included"
 
+  - title: "Gait rehabilitation control system and method therefor"
+    country: "EU"
+    number: "03,287,983"
+    date: "2025-06-18"
+    role: "lead"
+    
   - title: "Gait rehabilitation control system and method therefor"
     country: "US"
     number: "10,881,911"
