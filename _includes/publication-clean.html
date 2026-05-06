@@ -19,11 +19,11 @@
     </div>
   {% endif %}
 
-  {% if pub.venue %}
-    <div style="line-height: 1.45; margin-bottom: 0.45em;">
-      <em>{{ pub.venue }}</em>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.number %}, no. {{ pub.number }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
-    </div>
-  {% endif %}
+{% if pub.venue %}
+  <div style="line-height: 1.45; margin-bottom: 0.45em;">
+    <em>{{ pub.venue }}</em>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.number %}, no. {{ pub.number }}{% elsif pub.article_number %}, no. {{ pub.article_number }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
+  </div>
+{% endif %}
 
   <div style="margin-top: 0.35em;">
     {% if pub.doi %}
