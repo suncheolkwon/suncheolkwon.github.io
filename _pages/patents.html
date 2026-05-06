@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Patents"
+permalink: /patents/
+author_profile: true
+---
+
+<p>
+This page lists Korean granted patents related to wearable robotics, rehabilitation robotics,
+assistive devices, robotic actuation, and human&ndash;robot interaction technologies.
+</p>
+
+<h2 class="pub-section-title">Korean Granted Patents</h2>
+
+{% assign kr_patents = site.data.patents.korean | sort: "date" | reverse %}
+{% assign kr_count = kr_patents | size %}
+
+{% for patent in kr_patents %}
+  {% assign reverse_index = kr_count | minus: forloop.index | plus: 1 %}
+  {% include patent-clean.html patent=patent index=reverse_index prefix="KR" %}
+{% endfor %}
