@@ -8,13 +8,19 @@ author_profile: true
 <h2 class="pub-section-title">Journal Articles</h2>
 
 {% assign journal_pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% assign journal_count = journal_pubs | size %}
+
 {% for pub in journal_pubs %}
-  {% include publication-clean.html pub=pub index=forloop.index prefix="J" %}
+  {% assign reverse_index = journal_count | minus: forloop.index | plus: 1 %}
+  {% include publication-clean.html pub=pub index=reverse_index prefix="J" %}
 {% endfor %}
 
 <h2 class="pub-section-title">Conference Proceedings</h2>
 
 {% assign conf_pubs = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
+{% assign conf_count = conf_pubs | size %}
+
 {% for pub in conf_pubs %}
-  {% include publication-clean.html pub=pub index=forloop.index prefix="C" %}
+  {% assign reverse_index = conf_count | minus: forloop.index | plus: 1 %}
+  {% include publication-clean.html pub=pub index=reverse_index prefix="C" %}
 {% endfor %}
