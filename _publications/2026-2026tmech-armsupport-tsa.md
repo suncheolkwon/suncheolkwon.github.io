@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-2026tmech-armsupport-tsa.md
 excerpt: ""
-date: ""
+date: "2027-01-01"
 venue: "IEEE/ASME Transactions on Mechatronics"
 volume: ""
 pages: ""
