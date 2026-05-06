@@ -1,0 +1,54 @@
+{% assign pub = include.pub %}
+
+<div style="margin-bottom: 2.0em; padding-bottom: 1.4em; border-bottom: 1px solid #e5e5e5;">
+
+  <div style="font-size: 1.08em; font-weight: 700; line-height: 1.35; margin-bottom: 0.25em;">
+    <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+  </div>
+
+  {% if pub.authors_text %}
+    {% assign authors_line = pub.authors_text
+      | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>"
+      | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
+    <div style="line-height: 1.45; margin-bottom: 0.25em;">
+      {{ authors_line }}
+    </div>
+  {% elsif pub.citation %}
+    {% assign clean_citation = pub.citation
+      | replace: "Recommended citation:", ""
+      | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>"
+      | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
+    <div style="line-height: 1.45; margin-bottom: 0.25em;">
+      {{ clean_citation | markdownify | remove: "<p>" | remove: "</p>" }}
+    </div>
+  {% endif %}
+
+  {% if pub.venue %}
+    <div style="line-height: 1.45; margin-bottom: 0.45em;">
+      <em>{{ pub.venue }}</em>{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}
+    </div>
+  {% endif %}
+
+  <div style="margin-top: 0.35em;">
+    {% if pub.doi %}
+      <a href="https://doi.org/{{ pub.doi }}" style="display: inline-block; padding: 2px 10px; border: 1px solid #555; border-radius: 3px; font-size: 0.75em; font-weight: 600; margin-right: 6px; text-decoration: none;">DOI</a>
+    {% elsif pub.paperurl and pub.paperurl contains "doi.org" %}
+      <a href="{{ pub.paperurl }}" style="display: inline-block; padding: 2px 10px; border: 1px solid #555; border-radius: 3px; font-size: 0.75em; font-weight: 600; margin-right: 6px; text-decoration: none;">DOI</a>
+    {% endif %}
+
+    {% if pub.corresponding %}
+      <span style="display: inline-block; padding: 2px 10px; border: 1px solid #888; border-radius: 3px; font-size: 0.75em; font-weight: 600; margin-right: 6px;">Corresponding author</span>
+    {% endif %}
+
+    {% if pub.co_corresponding %}
+      <span style="display: inline-block; padding: 2px 10px; border: 1px solid #888; border-radius: 3px; font-size: 0.75em; font-weight: 600; margin-right: 6px;">Co-corresponding author</span>
+    {% endif %}
+
+    {% if pub.badges %}
+      {% for badge in pub.badges %}
+        <span style="display: inline-block; padding: 2px 10px; border: 1px solid #888; border-radius: 3px; font-size: 0.75em; font-weight: 600; margin-right: 6px;">{{ badge }}</span>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+</div>
