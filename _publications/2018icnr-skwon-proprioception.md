@@ -5,6 +5,7 @@ category: conferences
 permalink: /publication/2018icnr-skwon-proprioception
 excerpt: ""
 date: 2018-10-16
+doi: "10.1007/978-3-030-01845-0_109"
 venue: "International Conference on NeuroRehabilitation (ICNR)"
 citation: "Suncheol Kwon and Won-Kyung Song"
 pages: "542-545"
