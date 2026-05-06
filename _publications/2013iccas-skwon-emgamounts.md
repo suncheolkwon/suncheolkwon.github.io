@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2013iccas-skwon-emgamounts
 excerpt: ""
-date: 2013-01-01
+date: 2013-10-20
 venue: "2013 13th International Conference on Control, Automation and Systems (ICCAS)"
 doi: 10.1109/ICCAS.2013.6703889"
 citation: "Suncheol Kwon, Youngjin Na, Yunjoo Kim, and Jung Kim"
