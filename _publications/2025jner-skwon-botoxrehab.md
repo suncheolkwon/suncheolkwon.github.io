@@ -11,5 +11,6 @@ article_number: "50"
 doi: "10.1186/s12984-025-01584-1"
 citation: "Joon-Ho Shin, Gyulee Park, Hayeon Kim, Duk Youn Cho, and Suncheol Kwon"
 corresponding: false
-badges: ""
+badges: 
+ - "JCR Q1; top 5% in Rehabilitation, 2024 JCR"
 ---
