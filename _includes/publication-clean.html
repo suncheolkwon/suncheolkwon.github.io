@@ -1,15 +1,15 @@
 {% assign pub = include.pub %}
 
-<div style="margin-bottom: 1.25em; padding-bottom: 0.85em; border-bottom: 1px solid #e5e5e5;">
+<div style="margin-bottom: 1.15em; padding-bottom: 0.80em; border-bottom: 1px solid #e5e5e5;">
   
-  <div style="font-size: 1.00em; font-weight: 700; line-height: 1.25; margin-bottom: 0.15em;">
+  <div style="font-size: 0.98em; font-weight: 700; line-height: 1.25; margin-bottom: 0.15em;">
     <span class="pub-number">[{{ include.prefix }}{{ include.index }}]</span>
     {{ pub.title }}
   </div>
 
   {% if pub.authors_text %}
 {% assign authors_line = pub.authors_text | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>" | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
-    <div style="line-height: 1.30; margin-bottom: 0.15em;">
+    <div style="line-height: 0.94; margin-bottom: 0.15em;">
       {{ authors_line }}
     </div>
   {% elsif pub.citation %}
