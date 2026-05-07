@@ -14,6 +14,6 @@ pages: "522-530"
 corresponding: false
 badges:
   - "1st author"
-  - JCR Q1; top 10% in Computer science, Information systems, 2014 JC
+  - "JCR Q1; top 10% in Computer science, Information systems, 2014 JCR"
 ---
 
