@@ -12,7 +12,7 @@ author_profile: true
 
 {% for patent in intl_patents %}
   {% assign reverse_index = intl_count | minus: forloop.index | plus: 1 %}
-  {% include patent-clean.html patent=patent index=reverse_index prefix="US" %}
+{% include patent-clean.html patent=patent index=reverse_index prefix="INT" %}
 {% endfor %}
 
 <h2 class="pub-section-title">Korean Granted Patents</h2>
