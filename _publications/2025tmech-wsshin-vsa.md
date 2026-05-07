@@ -13,5 +13,5 @@ doi: "10.1109/TMECH.2024.3517540"
 citation: "Wonseok Shin, Sungbin Park, Suncheol Kwon, Bummo Ahn, and Jung Kim"
 corresponding: false
 badges: 
- - "JCR Q1; top 5% in Mechanical Engineering, 2024 JCR"""
+  - "JCR Q1; top 5% in Mechanical Engineering, 2024 JCR"""
 ---
