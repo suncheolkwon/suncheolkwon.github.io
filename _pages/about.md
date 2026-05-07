@@ -28,10 +28,10 @@ Korea Institute of Industrial Technology (KITECH), Republic of Korea
 
 **Associate Professor**  
 University of Science and Technology (UST), Republic of Korea  
-*Current affiliation*
+*Sep. 2024 – Present*
 
 **Senior Research Officer**  
-Department of Rehabilitative and Assistive Technology  
+Department of Rehabilitative and Assistive Technology Research  
 National Rehabilitation Center, Ministry of Health and Welfare, Republic of Korea  
 *Jan. 2017 – Sep. 2022*
 
