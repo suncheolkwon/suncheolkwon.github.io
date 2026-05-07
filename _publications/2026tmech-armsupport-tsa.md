@@ -13,5 +13,5 @@ citation: "Sohyun Moon, Yeji Hwang, Suncheol Kwon, Jonghyun Kim"
 corresponding: false
 badges:
   - "Early Access"
-  
+  - "JCR Q1; top 5% in Mechanical Engineering, 2024 JCR"
 ---
