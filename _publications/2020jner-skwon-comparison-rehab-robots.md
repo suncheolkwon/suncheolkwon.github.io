@@ -11,6 +11,6 @@ citation: "Jin Ho Park, Gyulee Park, Ha Yeon Kim, Ji-Yeong Lee, Yeajin Ham, Dong
 volume: "17"
 article_number: "137"
 corresponding: false
-badge: 
+badges: 
  - "JCR Q1; top 5% in Rehabilitation, 2020 JCR"
 ---
