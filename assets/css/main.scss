@@ -45,21 +45,20 @@
 /* Custom publication styles */
 
 .pub-section-title {
-  margin-top: 2.2em;
-  margin-bottom: 1.1em;
-  padding: 0.35em 0.6em;
-  border-left: 6px solid #52adc8;
+  margin-top: 1.7em;
+  margin-bottom: 0.8em;
+  padding: 0.28em 0.55em;
+  border-left: 5px solid #52adc8;
   background: #f5f9fb;
-  font-size: 1.45em;
+  font-size: 1.22em;
   font-weight: 700;
   color: #333;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .pub-section-title:not(:first-of-type) {
-  margin-top: 3em;
+  margin-top: 2.3em;
 }
-
 .pub-number {
   display: inline-block;
   min-width: 2.2em;
