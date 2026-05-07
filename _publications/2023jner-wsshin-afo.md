@@ -11,6 +11,8 @@ venue: "Journal of NeuroEngineering and Rehabilitation"
 doi: "10.1186/s12984-023-01261-1"
 citation: "Wonseok Shin, Dongwoo Nam, Bummo Ahn, Sangjoon J. Kim, Dong Yeon Lee, Suncheol Kwon, and Jung Kim"
 corresponding: true
+badge:
+ - "JCR Q1; top 5% in Rehabilitation, 2023 JCR"
 ---
 
 
