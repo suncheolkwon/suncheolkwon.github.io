@@ -1,0 +1,22 @@
+{% assign profile = site.data.cv_profile %}
+<h2 id="research-interests">Research Interests</h2>
+<ul>
+{% for interest in profile.research_interests %}<li>{{ interest.en | escape }}</li>{% endfor %}
+</ul>
+
+{% assign sections = 'positions,visiting,education,honors' | split: ',' %}
+{% assign titles = 'Professional Experience,Visiting Research,Education,Honors and Awards' | split: ',' %}
+{% for key in sections %}
+<h2 id="{{ titles[forloop.index0] | slugify }}">{{ titles[forloop.index0] }}</h2>
+{% for record in profile[key] %}
+<p><strong>{{ record.title.en | escape }}</strong><br>
+{{ record.details.en | escape | newline_to_br }}<br>
+<em>{% if record.period_label %}{{ record.period_label.en }} · {% endif %}{{ record.date }}{% assign end_character = record.date | slice: -1, 1 %}{% if end_character == '–' %}Present{% endif %}</em>
+{% if record.thesis %}<br>Thesis: <em>{{ record.thesis.en | escape }}</em>{% endif %}
+{% if record.advisor %}<br>Advisor: {{ record.advisor.en | escape }}{% endif %}
+</p>
+{% if record.duties %}
+<ul>{% for duty in record.duties %}<li>{{ duty.en | escape }}</li>{% endfor %}</ul>
+{% endif %}
+{% endfor %}
+{% endfor %}

@@ -6,13 +6,31 @@ author_profile: true
 
 <h2 class="pub-section-title">International Journal Articles</h2>
 
-{% assign journal_pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% assign manuscripts = site.publications | where: "category", "manuscripts" %}
+{% assign submitted = "" | split: "," %}
+{% assign journal_pubs = "" | split: "," %}
+{% for paper in manuscripts %}
+  {% if paper.badges contains "Submitted" %}
+    {% assign submitted = submitted | push: paper %}
+  {% else %}
+    {% assign journal_pubs = journal_pubs | push: paper %}
+  {% endif %}
+{% endfor %}
+{% assign journal_pubs = journal_pubs | sort: "date" | reverse %}
 {% assign journal_count = journal_pubs | size %}
 
 {% for pub in journal_pubs %}
   {% assign reverse_index = journal_count | minus: forloop.index | plus: 1 %}
   {% include publication-clean.html pub=pub index=reverse_index prefix="J" %}
 {% endfor %}
+
+{% if submitted.size > 0 %}
+  <h2 class="pub-section-title">Submitted Manuscripts</h2>
+  {% assign submitted = submitted | sort: "title" %}
+  {% for pub in submitted %}
+    {% include publication-clean.html pub=pub index=forloop.index prefix="S" %}
+  {% endfor %}
+{% endif %}
 
 <h2 class="pub-section-title">International Conference Proceedings</h2>
 

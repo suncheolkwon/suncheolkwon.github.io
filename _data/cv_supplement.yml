@@ -1,0 +1,249 @@
+technology:
+- date: '2021'
+  title:
+    en: Rebless Planar
+    ko: Rebless Planar
+  original_details_ko:
+  - (기기 설명) 엔드이펙터 방식의 상지재활로봇 (의료기기 3등급, 제허 21-1020호)
+  - (참여 분야) 엔드이펙터 방식 상지재활로봇 및 구성요소 기획 및 개발 발주
+  - (성과 활용) 서울아산병원(2022) 등 3개 기관 임상현장 활용
+  details:
+    en: Planned the end-effector upper-limb rehabilitation robot and its components and commissioned their development. Korean Class III medical
+      device, approval 21-1020. Clinical sites included Asan Medical Center in 2022.
+    ko: 엔드이펙터 방식 상지재활로봇과 구성요소를 기획하고 개발 발주를 담당했다. 의료기기 3등급, 제허 21-1020호. 2022년 서울아산병원 등에서 임상에 활용됐다.
+- date: '2014'
+  title:
+    en: Morning Walk
+    ko: Morning Walk
+  original_details_ko:
+  - (기기 설명) 체중지지 안장을 적용한 엔드이펙터 방식의 보행재활로봇 (의료기기 3등급, 제허 14-3262호)
+  - (참여 분야) 평지보행 및 계단보행 훈련, 체중탈부하 훈련 기능과 사용자 인터페이스 등 보행재활로봇 제어프로그램 전체를 개발
+  - (성과 활용) 세브란스재활병원(2019), 인제대학교 일산백병원(2019), 전북대학교병원(2020), 국민건강보험일산병원(2015), 국립재활원(2015) 등
+  details:
+    en: Developed the control software and user interface for an end-effector gait trainer with saddle body-weight support, including level walking,
+      stair walking and unloading. Korean Class III medical device, approval 14-3262.
+    ko: 체중지지 안장을 적용한 엔드이펙터 보행재활로봇의 제어 소프트웨어와 사용자 인터페이스를 개발했다. 평지·계단 보행과 체중탈부하 훈련 기능을 구현했다. 의료기기 3등급, 제허 14-3262호.
+- date: '2014'
+  title:
+    en: Carrybot
+    ko: Carrybot
+  original_details_ko:
+  - (기기 설명) 안정적 체중지지를 위해 업힘 방식을 적용한 이승 돌봄로봇 (전동식환자리프트, 의료기기 1등급, 경인 제신 14-679호)
+  - (참여 분야) 이승 및 이동기능 구현 등 이승돌봄로봇의 제어프로그램 전체를 개발
+  details:
+    en: Developed the control software for a powered patient lift, including transfer and mobility functions. Korean Class I medical device, notification
+      14-679.
+    ko: 업힘 방식의 전동식 환자 리프트에서 이승·이동 기능 등 제어 소프트웨어 전반을 개발했다. 의료기기 1등급, 경인 제신 14-679호.
+service:
+- date: '2023'
+  title:
+    en: Director of Planning
+    ko: 기획이사
+  details:
+    en: Korean Society of Manufacturing Technology Engineers
+    ko: 한국생산제조학회
+- date: '2021'
+  title:
+    en: Director of Planning
+    ko: 기획이사
+  details:
+    en: Korean Society of Biomechanics
+    ko: 대한생체역학회
+- date: '2017'
+  title:
+    en: Research member
+    ko: 연구회원
+  details:
+    en: Rehabilitation Robotics Research Group, Korea Robotics Society
+    ko: 한국로봇학회 재활로봇연구회
+- date: 2021–2022
+  title:
+    en: Robotics technology expert and steering committee member
+    ko: 로봇기술전문위원 및 운영위원
+  details:
+    en: Robot Technology Expert Committee and Robot Regulatory Innovation Forum, Korea Institute for Robot Industry Advancement
+    ko: 한국로봇산업진흥원 로봇기술전문위원회 및 로봇규제혁신포럼
+- date: '2020'
+  title:
+    en: Public services subcommittee member
+    ko: 공공서비스 분과위원
+  details:
+    en: Robot Application Strategy Network, Korea Institute for Robot Industry Advancement
+    ko: 한국로봇산업진흥원 로봇활용 전략네트워크
+funding:
+- date: '2021'
+  title:
+    en: Clinical demonstration support program for rehabilitation robots
+    ko: 재활로봇임상실증지원사업
+  sponsor:
+    en: Korea Institute for Robot Industry Advancement
+    ko: 한국로봇산업진흥원
+  krw: 500000000
+- date: '2020'
+  title:
+    en: Rehabilitation robot demonstration support program
+    ko: 재활로봇실증지원사업
+  sponsor:
+    en: Korea Institute for Robot Industry Advancement
+    ko: 한국로봇산업진흥원
+  krw: 700000000
+- date: 2019.05–2019.12
+  title:
+    en: Medical and rehabilitation robot deployment program
+    ko: 의료재활로봇보급사업
+  sponsor:
+    en: Korea Institute for Robot Industry Advancement
+    ko: 한국로봇산업진흥원
+  krw: 1520000000
+- date: 2018.05–2018.12
+  title:
+    en: Medical and rehabilitation robot deployment program
+    ko: 의료재활로봇보급사업
+  sponsor:
+    en: Korea Institute for Robot Industry Advancement
+    ko: 한국로봇산업진흥원
+  krw: 869400000
+- date: 2017.05–2018.04
+  title:
+    en: Medical and rehabilitation robot deployment program
+    ko: 의료재활로봇보급사업
+  sponsor:
+    en: Korea Institute for Robot Industry Advancement
+    ko: 한국로봇산업진흥원
+  krw: 1063334000
+- date: '2021'
+  title:
+    en: High-density surface EMG signal processing for hand rehabilitation robots
+    ko: 수지재활로봇에 적용 가능한 고밀도 표면근전도 신호처리 기술 개발
+  sponsor:
+    en: Ministry of Health and Welfare
+    ko: 보건복지부
+  krw: 68000000
+  number: NRCTR-IN21004
+- date: '2021'
+  title:
+    en: Signal processing for smart monitoring of daily living in people with disabilities
+    ko: 장애인 일상생활의 스마트 모니터링을 위한 신호처리 기술 연구
+  sponsor:
+    en: Ministry of Health and Welfare
+    ko: 보건복지부
+  krw: 30000000
+- date: '2020'
+  title:
+    en: Surface EMG-based assistance control and a learning model for robot-assisted upper-limb rehabilitation
+    ko: 로봇을 활용한 상지 재활 훈련에서의 표면근전도 연계 보조력 제어기법 고도화 및 로봇재활 학습모델 연구
+  sponsor:
+    en: Ministry of Health and Welfare
+    ko: 보건복지부
+  krw: 90000000
+  number: NRCTR-IN20004
+- date: '2019'
+  title:
+    en: Surface EMG-based assistance control for upper-limb rehabilitation robots
+    ko: 상지재활로봇을 위한 표면근전도 연계보조력 제어기법 연구
+  sponsor:
+    en: Ministry of Health and Welfare
+    ko: 보건복지부
+  krw: 100000000
+  number: NRCTR-IN19004
+- date: '2018'
+  title:
+    en: User-intent recognition and control for robotic rollators for people with disabilities
+    ko: 장애인 보행보조 로봇장치를 위한 사용자 의도파악 및 제어기술 개발
+  sponsor:
+    en: Ministry of Health and Welfare
+    ko: 보건복지부
+  krw: 110000000
+  number: NRCTR-IN18004
+- date: '2018'
+  title:
+    en: Wrist movement direction recognition with multichannel surface EMG in people with stroke or spinal cord injury
+    ko: 다채널 표면근전도 인터페이스를 이용한 뇌졸중 장애인과 척수손상 장애인의 손목동작 방향 인식방법 개발
+  sponsor:
+    en: Ministry of Health and Welfare
+    ko: 보건복지부
+  krw: 20000000
+translation:
+  date: '2020'
+  title:
+    en: 의료기기 사용적합성 평가의 이해
+    ko: 의료기기 사용적합성 평가의 이해
+  details:
+    en: Co-translator. Beommun Education.
+    ko: 공동 번역. 범문에듀케이션.
+  contributors: Y. H. Kim, I. H. Moon, H. M. Lee, H. Choi, H. Choi, H. S. Kwon, S. Kwon, J. Y. Park, B. H. Won, G. Lee, M. J. Lim, K. Jang, D.
+    Y. Jung, S. M. Cho, C. J. Choi
+domestic_presentations:
+- date: '2014'
+  title:
+    en: Development of an end-effector gait rehabilitation robot with saddle body-weight support
+    ko: 체중지지 안장을 적용한 엔드이펙터 방식의 보행재활로봇 개발
+  details:
+    en: Korean Society of Rehabilitation Welfare Engineering, annual conference
+    ko: 한국재활복지공학회 학술대회
+- date: '2014'
+  title:
+    en: Real-time control of a rehabilitation robot system using EtherCAT
+    ko: EtherCAT을 이용한 재활로봇 시스템의 실시간 제어
+  details:
+    en: Korean Society of Rehabilitation Welfare Engineering, annual conference
+    ko: 한국재활복지공학회 학술대회
+patent_applications:
+- number: '16881740'
+  country: US
+  title: Wearable hand robot
+- number: '15573608'
+  country: US
+  title: Aid robot for transporting
+- number: '16640507'
+  country: US
+  title: Upper limb exercise apparatus and control method therefor
+- number: '15881297.4'
+  country: EU
+  title: Gait rehabilitation control system and method therefor
+- number: '201680027794.8'
+  country: CN
+  title: Aid robot for transporting
+- number: '201880054531.5'
+  country: CN
+  title: Upper limb exercise apparatus and control method therefor
+korean_patent_titles:
+  10-2851934: 다리 관절 로봇
+  10-2726839: 스트링 액추에이터 기반 가변 반지름 이중 풀리 메커니즘
+  10-2710668: 상지 회전유도장치
+  10-2693378: 재활 로봇 시스템 및 재활 로봇의 제어방법
+  10-2683258: 환자 맞춤형 보조력 제공이 가능한 재활 운동 시스템
+  10-2660406: 훈련 동작 가이드 시스템
+  10-2633228: 뇌파 측정을 이용한 훈련자 집중 유도 시스템
+  10-2604835: 표면 근전도 기반 힘 피드백 재활 방법 및 시스템
+  10-2591603: 재활 훈련 장치
+  10-2542038: 전동형 보행보조장치
+  10-2525715: 재활 로봇을 이용한 재활 훈련 방법 및 시스템
+  10-2516170: 수부 재활 장치
+  10-2477974: 손목관절 재활훈련 장치
+  10-2421437: 손 운동장치
+  10-2376055: 기계적 임피던스 조절이 가능한 인체 더미 장치
+  10-2369477: 손에 착용 가능한 잡기 보조용 전동집게
+  10-2361952: 상지 재활 가상현실 시스템
+  10-2311584: 사용자 정보 인식 기반의 비상 정지 기능을 갖는 보행 재활 장치
+  10-2311571: 햅틱 기능을 결합한 가상 현실을 제공하는 보행재활 장치
+  10-2303541: 관절 보조 장치
+  10-2234200: 에어셀을 이용한 인체 지지 장치 및 이의 에어 조절 방법
+  10-2228066: 인지 장애인 돌봄 서비스 방법 및 시스템
+  10-2219481: 손잡이 고정 장치
+  10-2200644: 임피던스 추정 로봇용 3차원 운동 구동 장치
+  10-2171237: 체간재활로봇
+  10-2096628: 배설 지원 장치 및 그 제어방법
+  10-2070138: 착용형 손 로봇
+  10-2037316: 보행 외골격의 다리 벌림 조인트와 이를 포함하는 보행 외골격
+  10-2014095: 인지 보조 시스템 및 방법
+  10-2000484: 상지 운동 기구 및 이의 제어 방법
+  10-1999543: 손잡이 각도 조정 기능이 부가된 상지 운동 기구
+  10-1991243: 재활운동용 에르고미터
+  10-1926113: 짚 라인 보행 보조 및 운동 시스템
+  10-1911221: 복합 자극을 통한 보행 패턴 훈련 및 의도 분석 시스템과, 방법
+  10-1609505: 보행 재활 제어 시스템 및 그 방법
+
+research_statement_ko: >-
+  주 연구분야는 1) 재활로봇 및 웨어러블로봇 연구개발, 그리고 2) 근전도/뇌전도 등 생체신호 연계 로봇제어방법 연구개발,
+  3) 디지털헬스케어를 위한 인체데이터 모니터링 및 동작분류 연구입니다.

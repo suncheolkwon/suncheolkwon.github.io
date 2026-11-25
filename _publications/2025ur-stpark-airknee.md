@@ -6,7 +6,8 @@ permalink: /publication/2025ur-stpark-airknee.md
 excerpt: ""
 date: 2025-06-30
 venue: "2025 22nd International Conference on Ubiquitous Robots (UR)"
-doi: "1109/UR65550.2025.11078079"
+pages: "506-511"
+doi: "10.1109/UR65550.2025.11078079"
 citation: "Seungtae Park, Wonsuk Shin, Bummo Ahn, and Suncheol Kwon"
 corresponding: true
 badges:

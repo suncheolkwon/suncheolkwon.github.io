@@ -66,3 +66,36 @@
   color: #2f7f9f;
   font-weight: 700;
 }
+
+/* Give side-by-side author profiles and content a little more room. */
+@include breakpoint($large) {
+  .sidebar + .page,
+  .sidebar + .archive {
+    @include prefix(0.75 of 12);
+  }
+}
+
+/* Keep the footer below both columns on short profile pages. */
+@include breakpoint($large) {
+  body.profile-archive {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0;
+
+    #main {
+      flex: 1 0 auto;
+      width: 100%;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: $masthead-height;
+      height: auto;
+      max-height: calc(100vh - #{$masthead-height});
+      /* The navigation script adds masthead padding inline for fixed sidebars. */
+      padding-top: 0 !important;
+      overflow-y: auto;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+name: Build website and bilingual CVs
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install CV renderer and fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libreoffice-writer fonts-liberation fonts-noto-cjk python3-docx python3-yaml poppler-utils
+      - name: Generate both CVs
+        run: /usr/bin/python3 _tools/cv/generate.py
+      - name: Verify a new publication and patent appear in both CVs
+        if: github.event_name == 'pull_request'
+        run: /usr/bin/python3 _tools/cv/test_updates.py
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Validate published CV pages and links
+        shell: bash
+        run: |
+          test -f _site/cv/index.html
+          for name in cv cv-ko; do
+            cmp "files/$name.pdf" "_site/files/$name.pdf"
+            pdfinfo "_site/files/$name.pdf"
+            grep -Fq "/files/$name.pdf" _site/cv/index.html
+          done
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+  deploy:
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

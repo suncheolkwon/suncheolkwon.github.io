@@ -9,7 +9,7 @@ venue: "IEEE Transactions on Biomedical Engineering"
 doi: "10.1109/TBME.2013.2295381"
 citation: "Suncheol Kwon, Yunjoo Kim, and Jung Kim"
 volume: "61"
-article_number: "4"
+number: "4"
 pages: "1134-1142"
 corresponding: false
 badges:

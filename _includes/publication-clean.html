@@ -4,30 +4,30 @@
   
   <div style="font-size: 0.98em; font-weight: 700; line-height: 1.25; margin-bottom: 0.15em;">
     <span class="pub-number">[{{ include.prefix }}{{ include.index }}]</span>
-    {{ pub.title }}
+    {{ pub.title | escape }}
   </div>
 
-  {% if pub.authors_text %}
-{% assign authors_line = pub.authors_text | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>" | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
-    <div style="line-height: 0.94; margin-bottom: 0.15em;">
-      {{ authors_line }}
-    </div>
-  {% elsif pub.citation %}
-{% assign clean_citation = pub.citation | replace: "Recommended citation:", "" | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>" | replace: "S. Kwon", "<strong>S. Kwon</strong>" %}
+  {% assign authors = pub.authors_text | default: pub.citation | strip %}
+  {% if authors != empty %}
     <div style="line-height: 1.30; margin-bottom: 0.15em;">
-      {{ clean_citation | markdownify | remove: "<p>" | remove: "</p>" }}
+      {{ authors | remove: "Recommended citation:" | escape | replace: "Suncheol Kwon", "<strong>Suncheol Kwon</strong>" | replace: "S. Kwon", "<strong>S. Kwon</strong>" }}
     </div>
   {% endif %}
 
-{% if pub.venue %}
-  <div style="line-height: 1.30; margin-bottom: 0.25em;">
-    <em>{{ pub.venue }}</em>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.number %}, no. {{ pub.number }}{% elsif pub.article_number %}, no. {{ pub.article_number }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
-  </div>
-{% endif %}
+  {% assign venue = pub.venue | strip %}
+  {% if venue != empty and venue != 'N/A' %}
+    <div style="line-height: 1.30; margin-bottom: 0.25em;">
+      <em>{{ venue | escape }}</em>{% if pub.volume and pub.volume != empty %}, vol. {{ pub.volume }}{% endif %}{% if pub.number and pub.number != empty %}, no. {{ pub.number }}{% endif %}{% if pub.article_number and pub.article_number != empty %}, art. {{ pub.article_number }}{% endif %}{% if pub.pages and pub.pages != empty %}, pp. {{ pub.pages }}{% endif %}{% unless pub.badges contains 'Submitted' %}{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}{% endunless %}.
+    </div>
+  {% endif %}
 
+  {% assign doi = pub.doi | default: pub.DOI | strip %}
+  {% if doi == empty and pub.paperurl contains 'https://doi.org/' %}
+    {% assign doi = pub.paperurl | remove_first: 'https://doi.org/' | strip %}
+  {% endif %}
   <div style="margin-top: 0.35em;">
-    {% if pub.doi %}
-      <a href="https://doi.org/{{ pub.doi }}" style="display: inline-block; padding: 2px 10px; border: 1px solid #555; border-radius: 3px; font-size: 0.75em; font-weight: 600; margin-right: 6px; text-decoration: none;">DOI</a>
+    {% if doi != empty %}
+      <a href="https://doi.org/{{ doi | escape }}" style="display: inline-block; padding: 2px 10px; border: 1px solid #555; border-radius: 3px; font-size: 0.75em; font-weight: 600; margin-right: 6px; text-decoration: none;">DOI</a>
     {% endif %}
 
     {% if pub.corresponding %}
