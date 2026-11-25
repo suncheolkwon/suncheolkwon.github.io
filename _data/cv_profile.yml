@@ -1,0 +1,177 @@
+name:
+  en: Suncheol Kwon
+  ko: 권순철
+research_interests:
+- en: Wearable robotics and assistive robotic systems
+  ko: 웨어러블 로봇 및 보조 로봇 시스템
+- en: Biomechatronics and human-centered robotic design
+  ko: 바이오메카트로닉스 및 인간 중심 로봇 설계
+- en: Biological signal-driven human–robot interaction
+  ko: 생체신호 기반 인간–로봇 상호작용
+- en: Human motion sensing and biomechanical analysis
+  ko: 인체 동작 측정 및 생체역학 분석
+- en: Rehabilitation and assistive robotic technologies
+  ko: 재활 및 보조 로봇 기술
+positions:
+- date: 2022.09–
+  period_label:
+    en: KITECH tenure
+    ko: KITECH 재직
+  title:
+    en: Principal Researcher
+    ko: 수석연구원(보)
+  details:
+    en: 'Department of Human-centric Robotics Research
+
+      Korea Institute of Industrial Technology (KITECH), Republic of Korea'
+    ko: 한국생산기술연구원(KITECH) · 인간중심로봇연구부문
+- date: 2024.09–
+  title:
+    en: Associate Professor
+    ko: 부교수
+  details:
+    en: University of Science and Technology (UST), Republic of Korea
+    ko: 과학기술연합대학원대학교(UST)
+- date: 2017.01–2022.09
+  title:
+    en: Senior Research Officer
+    ko: 공업연구관
+  details:
+    en: 'Department of Rehabilitative and Assistive Technology Research
+
+      National Rehabilitation Center, Ministry of Health and Welfare, Republic of Korea'
+    ko: 보건복지부 국립재활원 재활연구소
+  duties:
+  - en: Program Director, Medical and Rehabilitation Robot Pilot Supply Program
+    ko: 의료재활로봇보급사업 사업단장
+  - en: Program Manager, Translational Research Program for Rehabilitation Robots
+    ko: 재활로봇중개연구사업 기술연구팀장
+- date: 2015.10–2016.12
+  title:
+    en: Principal Research Engineer
+    ko: 책임연구원
+  details:
+    en: 'Chassis Design Center
+
+      Hyundai Mobis Co., Ltd.'
+    ko: 현대모비스 샤시설계센터
+- date: 2013.07–2015.09
+  title:
+    en: Senior Research Engineer
+    ko: 선임연구원
+  details:
+    en: 'Convergence Technology Institute
+
+      Hyundai Heavy Industries Co., Ltd.'
+    ko: 현대중공업 융합기술연구소
+- date: 2005.08–2006.02
+  title:
+    en: Researcher
+    ko: 연구원
+  details:
+    en: 'Battery Technology Center
+
+      LG Chem Co., Ltd.'
+    ko: LG화학 배터리기술센터
+visiting:
+- date: 2011.01–2011.07
+  title:
+    en: Visiting Student
+    ko: 방문학생
+  details:
+    en: 'Functional and Applied Biomechanics Section
+
+      Rehabilitation Medicine Department, Clinical Center
+
+      National Institutes of Health (NIH), USA'
+    ko: 미국 국립보건원(NIH) 임상센터 재활의학과 기능·응용 생체역학 연구팀
+  advisor:
+    en: Prof. Hyung-Soon Park
+    ko: 박형순 교수
+education:
+- date: '2013.08'
+  start: '2009.02'
+  title:
+    en: Ph.D. in Mechanical Engineering
+    ko: 기계공학 박사
+  details:
+    en: KAIST
+    ko: 한국과학기술원(KAIST)
+  thesis:
+    en: Power assistance using surface electromyography and its influence on human movement stability
+    ko: 표면근전도 신호를 이용한 근력보조가 인간 동작의 안정성에 미치는 영향
+  advisor:
+    en: Prof. Jung Kim
+    ko: 김정 교수
+- date: '2009.01'
+  start: '2007.03'
+  title:
+    en: M.S. in Mechanical Engineering
+    ko: 기계공학 석사
+  details:
+    en: KAIST
+    ko: 한국과학기술원(KAIST)
+  thesis:
+    en: A physical human-machine interaction using SEMG of the upper limb
+    ko: 상지부의 표면근전도를 이용한 물리적 인간-기계 상호작용에 관한 연구
+  advisor:
+    en: Prof. Jung Kim
+    ko: 김정 교수
+- date: '2007.02'
+  start: '2000.03'
+  title:
+    en: B.S. in Mechanical Engineering
+    ko: 기계공학 학사
+  details:
+    en: Korea University
+    ko: 고려대학교
+honors:
+- date: '2020.11'
+  title:
+    en: Minister’s Commendation
+    ko: 장관 표창
+  details:
+    en: Ministry of Health and Welfare
+    ko: 보건복지부
+- date: '2011.11'
+  title:
+    en: Wooduk Scholarship
+    ko: 우덕장학금
+  details:
+    en: Wooduk Foundation
+    ko: 우덕재단
+- date: '2009.01'
+  title:
+    en: Outstanding Dissertation Award
+    ko: 우수 학위논문상
+  details:
+    en: KAIST
+    ko: 한국과학기술원
+- date: '2006'
+  title:
+    en: Mirae Woohak Scholarship
+    ko: 미래우학장학금
+  details:
+    en: Mirae Woohak Foundation
+    ko: 미래우학재단
+- date: 2006 / 2005 / 2000
+  title:
+    en: Semester High Honors (cum laude)
+    ko: 학기 성적 우등
+  details:
+    en: Korea University, spring semesters
+    ko: 고려대학교, 각 연도 1학기
+- date: '2004'
+  title:
+    en: Cum Laude Scholarship
+    ko: 성적우수 장학금
+  details:
+    en: Korea University, fall semester
+    ko: 고려대학교, 2학기
+- date: '2000'
+  title:
+    en: Freshmen Special Scholarship
+    ko: 신입생 특별 장학금
+  details:
+    en: Korea University, spring semester
+    ko: 고려대학교, 1학기

@@ -9,6 +9,7 @@ venue: "Sensors"
 doi: "10.3390/s21217055"
 citation: "Donghwan Hwang, Joon-Ho Shin, and Suncheol Kwon"
 volume: "21"
-article-number: "7055"
+number: "21"
+article_number: "7055"
 corresponding: true
 ---

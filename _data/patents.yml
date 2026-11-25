@@ -24,6 +24,13 @@ international:
     role: "lead"
     
 korean:
+  - title: "Planetary gear device design method and planetary gear device designed using the same"
+    title_ko: "유성기어장치 설계방법 및 이를 이용하여 설계된 유성기어장치"
+    country: "KR"
+    number: "10-3048822"
+    date: "2026-11-11"
+    role: "included"
+
   - title: "Leg joint robot"
     country: "KR"
     number: "10-2851934"

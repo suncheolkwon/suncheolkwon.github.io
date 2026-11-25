@@ -4,12 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026ijms-backlashmodeling.md
 excerpt: ""
-date: "2027-01-01"
-venue: "N/A"
-volume: ""
-pages: ""
-doi: ""
-citation: ""
 corresponding: true
 badges:
   - "Submitted"

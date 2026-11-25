@@ -1,14 +1,15 @@
 ---
 layout: archive
+body_class: profile-archive
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% assign projects = site.portfolio | sort: "order", "last" %}
+{% for project in projects %}
+<article class="archive__item">
+  <h2 class="archive__item-title"><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2>
+  <p>{{ project.excerpt | strip_html }}</p>
+</article>
 {% endfor %}
-

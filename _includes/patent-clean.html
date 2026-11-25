@@ -4,8 +4,10 @@
   
   <div style="font-size: 0.98em; font-weight: 700; line-height: 1.25; margin-bottom: 0.12em;">
     <span class="pub-number">[{{ include.prefix }}{{ include.index }}]</span>
-    {{ patent.title }}
+    {{ patent.title | escape }}
   </div>
+
+  {% if patent.title_ko %}<div lang="ko">{{ patent.title_ko | escape }}</div>{% endif %}
 
   <div style="font-size: 0.94em; line-height: 1.30;">
     {{ patent.country }} {{ patent.number }}{% if patent.date %}, granted {{ patent.date | date: "%b. %-d, %Y" }}{% endif %}.

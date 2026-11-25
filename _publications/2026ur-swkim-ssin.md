@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026ur-swkim-ssin.md
 excerpt: ""
 date: 2026-07-15
-venue: "2026 23nd International Conference on Ubiquitous Robots (UR)"
+venue: "2026 23rd International Conference on Ubiquitous Robots (UR)"
 doi: ""
 citation: "Siwoo Kim, Wonseok Shin, Bummo Ahn, Suncheol Kwon"
 corresponding: true

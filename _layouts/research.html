@@ -1,0 +1,18 @@
+---
+layout: archive
+body_class: profile-archive
+---
+
+{{ content }}
+
+{% if page.publication_dois %}
+<h2>Selected publications</h2>
+<ul>
+  {% for doi in page.publication_dois %}
+    {% assign paper = site.publications | where: "doi", doi | first %}
+    {% if paper %}
+    <li><a href="https://doi.org/{{ doi }}">{{ paper.title | escape }}</a> · <i>{{ paper.venue | escape }}</i> ({{ paper.date | date: "%Y" }})</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
